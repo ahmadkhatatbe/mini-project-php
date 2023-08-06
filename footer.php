@@ -15,16 +15,14 @@
     grid-template-columns: auto auto auto;
     line-height: 40px;
     background-color: black;
+    justify-content: space-around;
     align-items: baseline;
     color: white;
     height:350px;
 }
-.logo h1{
-}
+
 .nav-footer{
     display: block;
-   
-
 }
 .nav-footer h3{
     font-size: 25px; 
@@ -72,12 +70,14 @@
 </head>
 <body>  
 <div class="footer">
-    <div class="logo"><h1>T-shirt Online</h1></div>
+    <h1>T-shirt Online</h1>
 
     <div class="links">
          <div class="nav-footer">
        <h3>links</h3>
                     <ul class="main-sub-footer">
+                         <li class="sub-nav-footer"><a href="home">Home</a></li>
+                          <li class="sub-nav-footer"><a href="#about">AboutUs</a></li>
                      <li class="sub-nav-footer"><a href="Addproduct.php">Addproduct</a></li>
                                  <li class="sub-nav-footer"><a href="product.php">product</a></li>
 

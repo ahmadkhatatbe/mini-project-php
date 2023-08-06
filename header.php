@@ -137,6 +137,8 @@ session_start();
     <div class="nav">
        
          <ul class="main-sub">
+                      <li class="sub-nav"><a href="home.php">Home</a></li>
+                          <li class="sub-nav"><a href="#about">AboutUs</a></li>
             <li class="sub-nav"><a href="Addproduct.php">Addproduct</a></li>
                         <li class="sub-nav"><a href="product.php">product</a></li>
 
