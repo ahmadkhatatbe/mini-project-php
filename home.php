@@ -17,7 +17,6 @@ background-size: cover;
 background-repeat: no-repeat;
 background-position: center;
 height: 600px;
-line-height: 50px;
 text-align: center;
 
 }
@@ -31,27 +30,53 @@ font-size: 30px;
     
 }
 .aboutus h2{
+    grid-column:1/4;
 padding-top: 20px;
 text-align: center;
 font-size: 35px;
 }
 .aboutus{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-around;
     height: 700px;
     position: relative;
 }
-.aboutus p{
-    position: absolute;
-    top: 30%;
-    left: 10%;
-    width: 700px;
-    font-size: 35px;
+.aboutus p{ 
+ 
+    width: 200px;
+    font-size: 25px;
 }
 .aboutus img{
-   position: absolute;
-   top:100px;
-   right: 50px;
+  
+   /* top:100px; */
+   /* right: 50px; */
 }
-
+@media screen and (min-width:428px) and (max-width:768px) {
+    .aboutus img{
+  
+   
+   width: 200px;
+   height: 200px;
+}
+}
+@media screen and (max-width:428px){
+    .one p span{
+    font-size: 30px;
+    
+}
+    .one p{
+padding-top: 15%;
+color: white;
+font-size: 25px;
+}
+.aboutus img{
+  
+   grid-column: 1/4;
+   width: 200px;
+   height: 200px;
+}
+}
     </style>
 </head>
 <body>

@@ -65,6 +65,40 @@
     color: black;
    
 }
+@media screen and (min-width: 425px) and (max-width: 768px) {
+
+.footer{
+    grid-column: 1/4;
+    display: grid;
+    grid-template-columns: auto auto;
+    line-height: 40px;
+    background-color: black;
+    justify-content: space-around;
+    align-items: baseline;
+    color: white;
+    height:550px;
+}
+
+}
+@media screen and (max-width: 424px) {
+
+.footer{
+    grid-column: 1/4;
+    display: grid;
+    grid-template-columns: auto;
+    line-height: 40px;
+    background-color: black;
+    justify-content: space-around;
+    align-items: baseline;
+    color: white;
+    height:750px;
+}
+
+
+  
+}
+
+
 
     </style>
 </head>
